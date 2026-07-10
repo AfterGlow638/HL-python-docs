@@ -7,15 +7,15 @@ Prepare a post-NXT-close, active-KRX-night-derivatives, pre-US-regular-market br
 REFERENCE DOCUMENTS
 Read these documents first when accessible:
 1. TossInvest WTS API Guide:
-   {{https://raw.githubusercontent.com/AfterGlow638/HL-python-sdk/refs/heads/main/docs/references/data-sources/tossinvest-wts/tossInvest-wts-api-guide.md?token=GHSAT0AAAAAAD5A5L2LE24SD7GAXO7TLQ3Q2SQW5FA}}
+   {{https://raw.githubusercontent.com/AfterGlow638/HL-python-docs/refs/heads/main/docs/references/data-sources/tossinvest-wts/tossInvest-wts-api-guide.md}}
 2. Source Tier Routing:
-   {{https://raw.githubusercontent.com/AfterGlow638/HL-python-sdk/refs/heads/main/docs/references/data-sources/source-tier-routing.md?token=GHSAT0AAAAAAD5A5L2K5FVX56NOMPKDE3BG2SQW6BQ}}
+   {{https://raw.githubusercontent.com/AfterGlow638/HL-python-docs/refs/heads/main/docs/references/data-sources/source-tier-routing.md}}
 3. Brief handoff contract:
-   {{https://raw.githubusercontent.com/AfterGlow638/HL-python-sdk/refs/heads/main/docs/workflows/brief-handoff-contract.md?token=GHSAT0AAAAAAD5A5L2L5HC6T2Y46RIUPAN42SQW65A}}
+   {{https://raw.githubusercontent.com/AfterGlow638/HL-python-docs/refs/heads/main/docs/workflows/brief-handoff-contract.md}}
 4. Semiconductor Briefing Workflow Examples:
-   {{https://raw.githubusercontent.com/AfterGlow638/HL-python-sdk/refs/heads/main/docs/workflows/briefing-workflow-examples.md?token=GHSAT0AAAAAAD5A5L2LCTAQVKVTM6YUMEE62SQW7JQ}}
+   {{https://raw.githubusercontent.com/AfterGlow638/HL-python-docs/refs/heads/main/docs/workflows/briefing-workflow-examples.md}}
 5. SK hynix ADS/ADR and US-session guide:
-   {{https://raw.githubusercontent.com/AfterGlow638/HL-python-sdk/refs/heads/main/docs/references/data-sources/skhynix-adr-us-session-guide.md?token=GHSAT0AAAAAAD5A5L2L6B3MUG4H43YJJUPK2SQW6SQ}}
+   {{https://raw.githubusercontent.com/AfterGlow638/HL-python-docs/refs/heads/main/docs/references/data-sources/skhynix-adr-us-session-guide.md}}
 
 Reference-document rules:
 - Use the WTS documents for final Korean price/flow rechecks, current-day flow revisions, US session separation, productCode validation, and failure handling.
@@ -463,13 +463,10 @@ Cover SK Hynix, Samsung Electronics, and the four single-stock ETFs:
 Cover as available:
 - MU:
 - SNDK:
-- WDC/STX:
 - DRAM/RAM:
 - NVDA:
 - AMD:
-- AVGO:
-- TSM:
-- SMH/SOXX/SOXL/SOXS:
+- SOXX/SOXL/SOXS:
 - NQ/SOX relative strength:
 - Pre-market volume/spread quality:
 - Group confirmation or divergence:
